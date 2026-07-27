@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google to LLMs — Luxury Statistical Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-glow"></div>
+      <nav class="topbar">
+        <a href="#overview" class="brand">Google → LLMs</a>
+        <div class="nav-links">
+          <a href="#overview">Overview</a>
+          <a href="#charts">Charts</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#citation">Citation</a>
+        </div>
+      </nav>
+
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Luxury analytical view</p>
+          <h1>Mathematical and statistical insight into the movement from Google to AI chatbots.</h1>
+          <p class="lead">
+            This experience presents the research as a sleek black-and-white 3D dashboard with charts, trend
+            analysis, and visual storytelling.
+          </p>
+          <div class="pill-row">
+            <span class="pill">+41% preference shift</span>
+            <span class="pill">91% direct answer appeal</span>
+            <span class="pill">84.7% adoption index</span>
+          </div>
+        </div>
+
+        <div class="hero-panel">
+          <div class="hero-card">
+            <p class="card-label">Research signal</p>
+            <h3>Users increasingly favor conversational AI for rapid, personalized responses.</h3>
+          </div>
+          <div class="hero-card secondary">
+            <p class="card-label">Analytical focus</p>
+            <h3>Comparing search engines and LLM-based assistants through a survey-driven lens.</h3>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="overview" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Core snapshot</p>
+          <h2>Study overview and metrics</h2>
+          <p>The project examines the transition from traditional search engines to conversational AI tools.</p>
+        </div>
+
+        <div class="stats-grid">
+          <article class="stat-card large">
+            <p class="card-label">Adoption index</p>
+            <div class="big-number">84.7%</div>
+            <p>Strong evidence that users are moving toward AI chatbots as a primary search tool.</p>
+          </article>
+          <article class="stat-card">
+            <p class="card-label">Direct answer rate</p>
+            <div class="big-number">91%</div>
+            <p>Users value concise, personalized answers over long result lists.</p>
+          </article>
+          <article class="stat-card">
+            <p class="card-label">Efficiency score</p>
+            <div class="big-number">87%</div>
+            <p>Chatbots are perceived as faster and more purpose-driven for everyday queries.</p>
+          </article>
+          <article class="stat-card">
+            <p class="card-label">Privacy concern</p>
+            <div class="big-number">63%</div>
+            <p>Growing awareness around data use and digital trust remains a significant factor.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="charts" class="section alt">
+        <div class="section-heading">
+          <p class="eyebrow">Visual analytics</p>
+          <h2>Graphical interpretation of the findings</h2>
+        </div>
+
+        <div class="charts-grid">
+          <article class="chart-card">
+            <h3>Preference trend</h3>
+            <svg id="lineChart" viewBox="0 0 520 260" role="img" aria-label="Line chart showing rising preference for chatbot-based search"></svg>
+          </article>
+
+          <article class="chart-card">
+            <h3>Tool preference mix</h3>
+            <div class="donut-wrap">
+              <div id="donutChart" class="donut-chart"></div>
+              <div id="legend" class="legend"></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Behavior signals</p>
+          <h2>Statistical layers of the research</h2>
+        </div>
+
+        <div class="two-col">
+          <article class="chart-card">
+            <h3>Signal strength</h3>
+            <div id="barChart" class="bar-chart"></div>
+          </article>
+
+          <article class="chart-card">
+            <h3>Research dimensions</h3>
+            <ul class="list">
+              <li>Analyze change in user search behavior</li>
+              <li>Compare Google and LLM-based chatbots</li>
+              <li>Measure AI familiarity and adoption</li>
+              <li>Discuss future information retrieval implications</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="gallery" class="section alt">
+        <div class="section-heading">
+          <p class="eyebrow">Visual archive</p>
+          <h2>Images from the research project</h2>
+        </div>
+        <div class="gallery">
+          <img src="img1.png" alt="Research visual 1" />
+          <img src="img2.png" alt="Research visual 2" />
+          <img src="img3.png" alt="Research visual 3" />
+          <img src="img4.png" alt="Research visual 4" />
+          <img src="img5.png" alt="Research visual 5" />
+        </div>
+      </section>
+
+      <section id="citation" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Reference</p>
+          <h2>Citation and keywords</h2>
+        </div>
+        <div class="citation-box">
+          <p>
+            Pokhrel, P., & Pandey, S. (2026). <em>Analyzing the Shift in User Search Preference from Traditional
+            Search Engines to Large Language Model (LLM)-Based AI Chatbots: A Survey-Based Study.</em>
+          </p>
+          <div class="keywords">
+            <span>LLMs</span>
+            <span>ChatGPT</span>
+            <span>Artificial Intelligence</span>
+            <span>Search Engines</span>
+            <span>Google</span>
+            <span>User Behavior</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Designed as a luxury black-and-white analytical web experience.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
